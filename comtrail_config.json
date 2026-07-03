@@ -1,0 +1,109 @@
+{
+    "pcap": {
+        "ip": "192.168.148.71",
+        "pwd": "ctadmin@123",
+        "path": "/data5/prism/Paths/InputDir4/WatchDir"
+    },
+    "ludr": {
+        "ip": "192.168.148.71",
+        "pwd": "ctadmin@123",
+        "path": "/data5/prism/Paths/InputDir1/WatchDir"
+    },
+    "voice": {
+        "ip": "192.168.148.71",
+        "pwd": "ctadmin@123",
+        "path": "/data5/prism/Paths/InputDir1/WatchDir"
+    },
+    "comtrail_url": "klera.comtrail-demo.clear-trail.com/clearinsight",
+    "kafka": {
+        "base_url": "http://kafka-ui.comtrail-demo.clear-trail.com",
+        "cluster": "kafka-cluster-1",
+        "topic_voice": "targetVoiceEnrichOutputTopic",
+        "topic_ip": "targetEnrichOutputTopic"
+    },
+    "solr": {
+        "base_url": "http://solr-s1.comtrail-demo.clear-trail.com",
+        "collection": "target_transaction_ct"
+    },
+    "last_folder": {
+        "ludr": "C:/Users/mohit.tambe/OneDrive - ClearTrail/Desktop/Demo-k8/LUDR/ludi",
+        "voice": "C:/Users/mohit.tambe/OneDrive - ClearTrail/Desktop/Calls/ArabicCall"
+    },
+    "server_log_services": [
+        {
+            "name": "tmsc",
+            "path": "/var/log/tmsc",
+            "enabled": true
+        },
+        {
+            "name": "prism",
+            "path": "/var/log/prism",
+            "enabled": true
+        },
+        {
+            "name": "redis",
+            "path": "/var/log/redis",
+            "enabled": true
+        },
+        {
+            "name": "signal",
+            "path": "/var/log/signal",
+            "enabled": true
+        },
+        {
+            "name": "RmqToKafka",
+            "path": "/var/log/RmqToKafka/RmqToKafka_Instance_1/lib/logs",
+            "enabled": true
+        },
+        {
+            "name": "stm",
+            "path": "/var/log/stm",
+            "enabled": false
+        },
+        {
+            "name": "vsf",
+            "path": "/var/log/vsf",
+            "enabled": false
+        },
+        {
+            "name": "idm1",
+            "path": "/var/log/idm1",
+            "enabled": false
+        },
+        {
+            "name": "idm2",
+            "path": "/var/log/idm2",
+            "enabled": false
+        },
+        {
+            "name": "MavenLogs",
+            "path": "/var/log/MavenLogs",
+            "enabled": false
+        },
+        {
+            "name": "voice1",
+            "path": "/var/log/voice1",
+            "enabled": false
+        },
+        {
+            "name": "FilterProvisionUtility",
+            "path": "/usr/local/cleartrail/FilterProvisionUtility/Logs",
+            "enabled": false
+        },
+        {
+            "name": "FilterProvisionUtility4Voice",
+            "path": "/usr/local/cleartrail/FilterProvisionUtility4Voice/Logs",
+            "enabled": false
+        },
+        {
+            "name": "QueryFetcherUtility",
+            "path": "/usr/local/cleartrail/QueryFetcherUtility/LogFiles",
+            "enabled": false
+        },
+        {
+            "name": "Monit",
+            "path": "/var/log",
+            "enabled": false
+        }
+    ]
+}
